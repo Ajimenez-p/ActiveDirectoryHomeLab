@@ -2,10 +2,11 @@
 
 I developed a comprehensive Active Directory environment utilizing Windows Server 2022, a Splunk server running on Ubuntu Server 22.04 LTS, Windows 10 Pro, and Kali Linux virtual machines. The project involved establishing domain configurations, user roles, and security policies to simulate a realistic network infrastructure. Advanced monitoring and logging were implemented using Splunk and Sysmon, while threat simulations—including brute-force RDP attacks using Kali Linux and Atomic Red Team techniques—were conducted to test and analyze security defenses. Through effective incident response strategies, I strengthened network defenses, demonstrating expertise in Active Directory management, network security, threat simulation, and the utilization of security monitoring tools.
 
-![Splunk Screenshot](assets/images/splunk_screenshot.png)  
-![Network Diagram](assets/images/network_diagram.png)  
-![Screenshot of All VMs](assets/images/all_vms.png)  
-
+<p align="center">
+  <img src="assets/images/splunk_screenshot.png" alt="Splunk Screenshot" width="300"/>
+  <img src="assets/images/network_diagram.png" alt="Network Diagram" width="300"/>
+  <img src="assets/images/all_vms.png" alt="Screenshot of All VMs" width="300"/>
+</p>
 ---
 
 ## Project Outline
