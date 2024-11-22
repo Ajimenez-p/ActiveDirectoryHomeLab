@@ -1,12 +1,12 @@
 # Active Directory Home Lab
 
-I developed a comprehensive Active Directory environment utilizing Windows Server 2022, a Splunk server running on Ubuntu Server 22.04 LTS, Windows 10 Pro, and Kali Linux virtual machines. The project involved establishing domain configurations, user roles, and security policies to simulate a realistic network infrastructure. Advanced monitoring and logging were implemented using Splunk and Sysmon, while threat simulations—including brute-force RDP attacks using Kali Linux and Atomic Red Team techniques—were conducted to test and analyze security defenses. Through effective incident response strategies, I strengthened network defenses, demonstrating expertise in Active Directory management, network security, threat simulation, and the utilization of security monitoring tools.
+I developed an Active Directory home lab environment utilizing Windows Server 2022, a Splunk server running on Ubuntu Server 22.04 LTS, Windows 10 Pro, and Kali Linux virtual machines. The project involved establishing domain configurations, user roles, and security policies to simulate a realistic network infrastructure. Advanced monitoring and logging were implemented using Splunk and Sysmon, while threat simulations—including brute-force RDP attacks using Kali Linux and Atomic Red Team techniques—were conducted to test and analyze security defenses. Through effective incident response strategies, I strengthened network defenses, demonstrating expertise in Active Directory management, network security, threat simulation, and the utilization of security monitoring tools.
 
-<p align="center">
-  <img src="assets/images/splunk_screenshot.png" alt="Splunk Screenshot" width="500"/>
-  <img src="assets/images/network_diagram.png" alt="Network Diagram" width="500"/>
-  <img src="assets/images/all_vms.png" alt="Screenshot of All VMs" width="500"/>
-</p>
+![Splunk Screenshot](assets/images/splunk_screenshot.png)  
+![Network Diagram](assets/images/network_diagram.png)  
+![Screenshot of All VMs](assets/images/all_vms.png)  
+
+---
 
 ## Project Outline
 
@@ -86,8 +86,7 @@ Key actions included:
 - Implementing advanced correlation searches to identify patterns indicative of security breaches, such as multiple failed login attempts or anomalous user behavior.
 - Revising security policies to enforce stricter password requirements and implementing account lockout mechanisms.
 - Restricting RDP access to authorized users only.
-- Conducting vulnerability assessments using **OpenVAS** on the Kali Linux VM to identify and remediate security weaknesses.
-- Performing regular patch management to reduce the attack surface.
+- Conducting vulnerability assessments using the Kali Linux VM to identify and remediate security weaknesses.
 
 This iterative process of monitoring, analysis, and remediation established a resilient security framework, ensuring the network’s defenses remained robust against evolving threats.
 
@@ -104,4 +103,4 @@ Through the integration of Active Directory, Splunk, and Kali Linux within a con
 - **Threat Simulation and Penetration Testing**: Using Kali Linux tools to simulate attacks and identify vulnerabilities.
 - **Security Monitoring Tools**: Utilizing Splunk and Sysmon for advanced monitoring and logging.
 - **Incident Response Strategies**: Analyzing security events and strengthening network defenses through remediation.
-- **Vulnerability Assessment**: Employing OpenVAS for scanning and mitigating security weaknesses.
+- **Vulnerability Assessment**: Employing Kali Linux for scanning and mitigating security weaknesses.
